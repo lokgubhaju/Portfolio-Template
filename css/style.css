@@ -1,0 +1,259 @@
+.body,html{
+    height:100%;
+}
+.banner{
+    background-color: whitesmoke;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+
+}
+.banner img{
+    height: 650px;
+}
+.btn1, .btn2{
+    padding: 10px 20px;
+    font-size: 15px;
+}
+.btn-bar .btn1, .btn-cv{
+    color: white;
+    border: none;
+    background: #d9832e;
+}
+.btn-bar .btn1:hover, .btn-cv:hover{
+    background: black;
+    color: white;
+}
+.btn-bar .btn2{
+    background: transparent;
+    border-color: #d9832e;
+    color: #d9832e;
+    margin-left: 10px;
+}
+.btn-bar .btn2:hover{
+    background: #d9832e;
+    color: white;
+}
+.about-me{
+    padding: 50px;
+    background: #eaedf2;
+}
+.line{
+    position: relative;
+}
+.line h2::before{
+    width: 50px;
+    background: #d9832e;
+    height: 2px;
+    position: absolute;
+    content: "";
+    left: 0;
+    bottom: 0;
+}
+.about-me img{
+    margin: 50px auto;
+    border: 14px solid #ffffff;
+}
+.btn-cv{
+    padding: 10px 20px;
+}
+.my-skills{
+    background: white;
+    margin: 50px auto;
+}
+.services{
+    background: #eaedf2;
+    padding: 50px;
+}
+.services .line{
+    margin: 50px auto;
+}
+.services .div1{
+    background: white;
+    padding: 25px;
+    margin: 15px 0;
+    border-radius: 5px;
+}
+.services .div1:hover{
+    background: #d9832e;
+    color: white;
+    margin-top: -10px;
+    transition: ease-out 0.1s;
+}
+.services .div1 .icon{
+    position: absolute;
+    margin-top: 20px;
+}
+.services .div1 .services-text{
+    margin-top: 100px;
+}
+.services .icon .fas{
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+    border-radius: 100px;
+    border: dashed 1px #d9832e;
+}
+.services .icon .fas fa{
+    position: absolute;
+    left: 20px;
+}
+
+.latest-works{
+    margin: 50px auto;
+}
+.latest-works .works img{
+    border-radius: 5px;
+}
+.latest-works .div1{
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+}
+.testimonials {
+    margin: 50px auto;
+    background: #eaedf2;
+    position: relative;
+}
+.testimonials .team1, .testimonials .team2{
+    height: 250px;
+    background: white;
+    border: solid 1px red;
+    padding: 20px;
+}
+.testimonials img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px 0 100px 100px;
+}
+.testimonials-text{
+    padding-right: 20px;
+    position: absolute;
+    padding-left: 120px;
+    top: 0;
+    margin: 20px 20px;
+}
+.blogs{
+    margin: 50px auto;
+}
+.blog-grid{
+    margin-top: 30px;
+    height: 450px;
+    position: relative;
+}
+.blog-grid .info-grid{
+    position: absolute;
+    margin: -30px 20px 0;
+    padding: 20px;
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 0px 8px 0px;
+
+}
+.blog-grid .info-grid .span-meta .date{
+    position: absolute;
+    padding: 5px;
+    font-size: 15px;
+    background: #d9832e;
+    color: white;
+    margin-top: -52px;
+    left: 0;
+}
+.blog-grid .info-grid .span-meta .text{
+    display: inline;
+    border-radius: 3px;
+    border-color: rgb(221, 221, 221);
+    border: 1px solid;
+    font-size: 12px;
+    padding: 2px 12px;
+    vertical-align: top;
+    background-color: rgb(255, 255, 255);
+
+}
+.blog-grid .info-grid a{
+    text-decoration: none;
+    color: black;
+}
+.blog-grid .info-grid .btn-grid a{
+    color: #d9832e;
+    border-bottom: 2px solid #d9832e ;
+}
+.blog-grid .info-grid .btn-grid a:hover{
+    color: black;
+    border-color: black;
+}
+.contact-us{
+    background-color:#eaedf2;
+}
+.contact-us .form{
+    background: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 100%;
+}
+.contact-us .form-control{
+    border-bottom: 1px solid #ccc;
+    padding-left: 0;
+    border: none;
+    border-style: none none solid;
+    border-radius: 0;
+    margin: 10px;
+    font-size: 14px;
+}
+.contact-us .btn-msg{
+    color: white;
+    background: #d9832e;
+    border-color: #d9832e;
+    padding: 12px 15px;
+    font-size: 12px;
+    margin: 10px 10px;
+}
+.contact-us .btn-msg:hover{
+    background: black;
+    border: black;
+}
+.contact-us .contact-info{
+    margin: 10px;
+    padding: 10px;
+    background: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.my-skills .feature-box{
+    position: relative;
+    border: 2px solid #d9832e;
+    padding: 22px 17px;
+    color: #d9832e;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: #ffffff;
+}
+.fas .fa{
+    font-weight: 900;
+}
+.my-skills .feature-box .media-body{
+    position: absolute;
+    top: 0;
+    margin: 15px;
+    text-align: center;
+    padding: 10px;
+}
+.my-skills .div2{
+    background: black;
+    height: 200px;
+}
+.footer{
+    background: black;
+    height: 70px;
+    color: white;
+}
+.footer .footer-icon .fab{
+   padding: 5px;
+   margin: 5px;
+   cursor: pointer;
+}
+.line h2{
+    margin: 30px 0;
+}
