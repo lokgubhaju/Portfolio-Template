@@ -3,18 +3,39 @@
 }
 .banner{
     background-color: whitesmoke;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
 
-}
-.banner img{
-    height: 650px;
 }
 .btn1, .btn2{
     padding: 10px 20px;
     font-size: 15px;
 }
+
+.fixed-menu {position:fixed; width:100px; height: 100%; background: white; box-shadow: 1px 0 5px rgba(0,0,0,0.5);}
+.fixed-menu .title {background: orange; color:white; padding:5px; text-align: center; text-transform: uppercase;} 
+.fixed-menu .home {display: block; background: white; text-align: center; text-transform: uppercase; padding: 15px 0; font-size: 12px; text-decoration: none; }
+.active {border-right: 3px solid #d9832e;} 
+.fixed-menu .home .home-icon i{
+    font-size: 20px;
+}
+.fixed-menu .home a{
+    text-decoration: none;
+    color: black;
+}
+.fixed-menu .home a:hover{
+    color: orange;
+}
+.skill-html h3 {position: relative; padding-bottom:15px; border-bottom: 5px solid #333;}
+.skill-html h3 span {position: absolute; right: 10%; font-size: 12px; color:red; bottom:0;}
+.skill-html h3:before {position: absolute; width:90%; height:5px; background: red; content: ""; bottom: -5px;}
+.skill-wordpress h3 {position: relative; padding-bottom:15px; border-bottom: 5px solid #333;}
+.skill-wordpress h3 span{position: absolute; right: 25%; font-size: 12px; color: red; bottom: 0;}
+.skill-wordpress h3::before{position: absolute; width: 75%; height: 5px; background: red; content: ""; bottom: -5px;}
+.skill-magento h3 {position: relative; padding-bottom:15px; border-bottom: 5px solid #333;}
+.skill-magento h3 span{position: absolute; right: 14%; font-size: 12px; color: red; bottom: 0;}
+.skill-magento h3::before{position: absolute; width: 86%; height: 5px; background: red; content: ""; bottom: -5px;}
+.skill-ui h3 {position: relative; padding-bottom:15px; border-bottom: 5px solid #333;}
+.skill-ui h3 span{position: absolute; right: 20%; font-size: 12px; color: red; bottom: 0;}
+.skill-ui h3::before{position: absolute; width: 80%; height: 5px; background: red; content: ""; bottom: -5px;}
 .btn-bar .btn1, .btn-cv{
     color: white;
     border: none;
@@ -81,22 +102,20 @@
     transition: ease-out 0.1s;
 }
 .services .div1 .icon{
-    position: absolute;
     margin-top: 20px;
-}
-.services .div1 .services-text{
-    margin-top: 100px;
-}
-.services .icon .fas{
     height: 100px;
     width: 100px;
+    text-align: center;
     line-height: 100px;
     border-radius: 100px;
     border: dashed 1px #d9832e;
+
 }
-.services .icon .fas fa{
-    position: absolute;
-    left: 20px;
+.services .div1:hover .icon{
+    border-color: white;
+}
+.services .div1 .services-text{
+    margin-top: 20px;
 }
 
 .latest-works{
@@ -111,13 +130,21 @@
     margin-bottom: 20px;
     border-radius: 15px;
 }
+.latest-works .grid-text{
+    color: white;
+    position: absolute;
+    text-align: center;
+    visibility: hidden;
+}
+.latest-works .div1:hover .grid-text{
+    visibility: visible;
+}
 .testimonials {
     margin: 50px auto;
     background: #eaedf2;
-    position: relative;
 }
-.testimonials .team1, .testimonials .team2{
-    height: 250px;
+.testimonials .team1{
+
     background: white;
     border: solid 1px red;
     padding: 20px;
@@ -128,22 +155,17 @@
     border-radius: 100px 0 100px 100px;
 }
 .testimonials-text{
-    padding-right: 20px;
-    position: absolute;
-    padding-left: 120px;
-    top: 0;
-    margin: 20px 20px;
+    margin: 10px;
 }
 .blogs{
     margin: 50px auto;
 }
 .blog-grid{
     margin-top: 30px;
-    height: 450px;
-    position: relative;
+
 }
 .blog-grid .info-grid{
-    position: absolute;
+    position: relative;
     margin: -30px 20px 0;
     padding: 20px;
     background: white;
@@ -187,10 +209,9 @@
 }
 .contact-us .form{
     background: #ffffff;
-    margin: 10px;
+    margin: 20px 0;
     padding: 15px;
     border-radius: 5px;
-    width: 100%;
 }
 .contact-us .form-control{
     border-bottom: 1px solid #ccc;
@@ -229,9 +250,7 @@
     border-radius: 5px;
     margin-top: 20px;
     background: #ffffff;
-}
-.fas .fa{
-    font-weight: 900;
+    height: 90px;
 }
 .my-skills .feature-box .media-body{
     position: absolute;
