@@ -42,16 +42,18 @@
     background: #d9832e;
 }
 .btn-bar .btn1:hover, .btn-cv:hover{
+    transition: 0.4s ease-in;
     background: black;
     color: white;
 }
 .btn-bar .btn2{
     background: transparent;
-    border-color: #d9832e;
+    border:2px solid #d9832e;
     color: #d9832e;
     margin-left: 10px;
 }
 .btn-bar .btn2:hover{
+    transition: 0.4s ease-in;
     background: #d9832e;
     color: white;
 }
