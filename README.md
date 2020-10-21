@@ -1,17 +1,1 @@
 # Portfolio-Template
-
- 
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
-
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
-
-# Local History for Visual Studio Code
-.history/
